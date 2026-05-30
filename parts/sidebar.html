@@ -1,0 +1,38 @@
+<!-- wp:group {"tagName":"aside","className":"site-sidebar","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|70","padding":{"top":"var:preset|spacing|60"}}}} -->
+<aside class="wp-block-group site-sidebar" style="padding-top:var(--wp--preset--spacing--60)">
+
+	<!-- Search -->
+	<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search…","buttonText":"Search","buttonUseIcon":true} /-->
+
+	<!-- Recent Posts -->
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
+	<div class="wp-block-group">
+		<!-- wp:heading {"level":3,"fontSize":"lg","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+		<h3 class="wp-block-heading has-lg-font-size" style="margin-bottom:var(--wp--preset--spacing--40)">Recent Posts</h3>
+		<!-- /wp:heading -->
+		<!-- wp:latest-posts {"postsToShow":5,"displayPostDate":true,"fontSize":"sm"} /-->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- Categories -->
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
+	<div class="wp-block-group">
+		<!-- wp:heading {"level":3,"fontSize":"lg","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+		<h3 class="wp-block-heading has-lg-font-size" style="margin-bottom:var(--wp--preset--spacing--40)">Categories</h3>
+		<!-- /wp:heading -->
+		<!-- wp:categories {"showPostCounts":true,"fontSize":"sm"} /-->
+	</div>
+	<!-- /wp:group -->
+
+	<!-- Tags -->
+	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
+	<div class="wp-block-group">
+		<!-- wp:heading {"level":3,"fontSize":"lg","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
+		<h3 class="wp-block-heading has-lg-font-size" style="margin-bottom:var(--wp--preset--spacing--40)">Tags</h3>
+		<!-- /wp:heading -->
+		<!-- wp:tag-cloud {"numberOfTags":20,"fontSize":"sm"} /-->
+	</div>
+	<!-- /wp:group -->
+
+</aside>
+<!-- /wp:group -->

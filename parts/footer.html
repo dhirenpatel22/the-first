@@ -1,0 +1,43 @@
+<!-- wp:group {"tagName":"footer","className":"site-footer","style":{"color":{"background":"var:preset|color|contrast"},"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|70"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<footer class="wp-block-group site-footer" style="background-color:var(--wp--preset--color--contrast);padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--70)">
+
+	<!-- Top row: brand + nav -->
+	<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"},"style":{"spacing":{"blockGap":"var:preset|spacing|60","padding":{"bottom":"var:preset|spacing|70"}}}} -->
+	<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--70)">
+
+		<!-- Brand column -->
+		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
+		<div class="wp-block-group">
+			<!-- wp:site-title {"level":0,"fontSize":"xl","style":{"color":{"text":"var:preset|color|base"},"typography":{"fontWeight":"700"}}} /-->
+			<!-- wp:site-tagline {"fontSize":"sm","style":{"color":{"text":"var:preset|color|muted"}}} /-->
+		</div>
+		<!-- /wp:group -->
+
+		<!-- Footer navigation -->
+		<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"fontSize":"sm","customTextColor":"#A0A0A0"} /-->
+
+	</div>
+	<!-- /wp:group -->
+
+	<!-- Divider -->
+	<!-- wp:separator {"style":{"color":{"background":"rgba(255,255,255,0.1)"}}} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity has-background" style="background-color:rgba(255,255,255,0.1)" />
+	<!-- /wp:separator -->
+
+	<!-- Bottom row: copyright + credit -->
+	<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50"}}}} -->
+	<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50)">
+
+		<!-- wp:paragraph {"fontSize":"xs","style":{"color":{"text":"rgba(255,255,255,0.4)"}}} -->
+		<p class="has-xs-font-size" style="color:rgba(255,255,255,0.4)">© 2025 — All rights reserved.</p>
+		<!-- /wp:paragraph -->
+
+		<!-- wp:paragraph {"fontSize":"xs","style":{"color":{"text":"rgba(255,255,255,0.4)"}}} -->
+		<p class="has-xs-font-size" style="color:rgba(255,255,255,0.4)">Built with WordPress &amp; The First.</p>
+		<!-- /wp:paragraph -->
+
+	</div>
+	<!-- /wp:group -->
+
+</footer>
+<!-- /wp:group -->
